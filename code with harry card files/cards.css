@@ -1,0 +1,123 @@
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@400;700&display=swap');
+
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+
+body {
+  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(235, 235, 235);
+
+}
+
+
+#bigbox {
+display: inline-block;
+margin-top: 10vh;
+border-style: solid;
+border: none;
+height: 80vh;
+width: 60vh;
+background-color: rgb(255, 255, 255);
+border-radius: 20px;
+box-shadow: 20px 20px 60px #aaaaaa;
+
+}
+
+
+#image {
+
+display: flex;
+justify-content: center;
+margin-top: 8px;
+
+
+}
+
+#vinland {
+
+height: 35vh;
+border-radius: 20px;
+width: 58vh;
+
+}
+
+
+.box {
+display: inline-block;
+border: none;
+height: 4vh;
+width: 13vh;
+margin-left: 3vh;
+margin-top: 2vh;
+border-radius: 2vh;
+background-color: rgba(255, 227, 100, 0.247);
+box-shadow: 10px 10px 10px #aaaaaa34;
+text-align: center;
+text-justify: auto;
+padding-top: 7px;
+color: rgba(0, 0, 0, 0.562);
+font-size: 2vh;
+}
+
+.box2 {
+
+margin-left: 2px;
+width : 17vh;
+}
+
+.box1 {
+
+width: 10vh;
+
+
+}
+
+h1 {
+
+margin-left: 3vh;
+margin-top: 3vh;
+font-size: 5vh;
+
+}
+
+p {
+margin-top: 1.90vh;
+margin-left: 3vh;
+color: rgba(0, 0, 0, 0.637);
+font-weight: lighter;
+font-size: 1.93vh;
+margin-right: 2vh;
+
+
+}
+
+button {
+
+height: 6vh;
+width: 16vh;
+background-color: rgb(255, 231, 126);
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 23vh;
+margin-top: 3.50vh;
+border: none;
+border-radius: 5vh;
+box-shadow: 10px 10px 10px #aaaaaa34;
+transition: all 0.5s;
+cursor: pointer;
+
+}

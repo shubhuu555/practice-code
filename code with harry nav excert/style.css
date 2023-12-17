@@ -1,0 +1,309 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
+html, body {
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.nav {
+  margin-top: 2vh;
+  height: 6vh;
+  width: 100%;
+  /* outline: 2px solid black;  */
+  padding-left: 30vh;
+  /* background-color: aqua; */
+  display: flex;
+  padding-right: 30vh;
+  
+
+}
+
+#logo {
+  height: 6vh;
+}
+.box1 {
+  height: 6vh;
+  /* outline: 2px solid black; */
+  width: 20vh;
+
+  
+}
+
+.box2, .box3, .box4, .box5, .box6{
+  
+  
+  
+  height: 6vh;
+  /* outline: 2px solid black; */
+  width: 10vh;
+  padding: 30;
+  display: flex;
+  justify-content: center  ;
+  align-items: center;
+  font-size: 2vh;
+  padding-left: 20px;
+  padding-right: 0px;
+  font-weight: 500;
+  color: rgba(36, 36, 36, 0.801);
+
+}
+
+
+.box2 {
+  margin-left: 68vh;
+  
+}
+
+#icon {
+  width: 3vh;
+}
+
+.box6 {
+  width: 5vh;
+
+
+}
+
+.box5 {
+  margin-left: 10px;
+}
+
+.hero {
+  width: 150vh;
+  height: 24vh;
+  /* outline: 2px solid black;  */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 27vh;
+  margin-top: 10vh;
+
+  
+
+}
+
+
+
+p {
+  width: 700px;
+  text-align: center;
+}
+
+
+
+
+h1 {
+  font-weight: 400;
+  /* font-size: px; */
+}
+
+
+
+
+#ultra {
+  font-weight: 800;
+}
+
+
+#reviews {
+  margin-left: 10px;
+  width: 80px;
+
+}
+
+
+button {
+  font-size: 14px;
+  font-weight: 500;
+  background-color: rgba(0, 187, 178, 0.664);
+  border: none;
+  width: 300px;
+  height: 40px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+
+
+.grids {
+  /* outline: 2px solid black; */
+  height: 70vh;
+  padding-left: 43vh;
+  margin-top: 30px;
+ 
+  /* background-color: rgba(216, 112, 147, 0.548); */
+  display: grid;
+  grid-template-columns: 38vh 38vh 38vh;
+  /* border:  1px solid black; */
+
+}
+
+
+.itmes {
+  /* background-color: rgba(137, 43, 226, 0.329); */
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.grids .itmes .name {
+  font-size: 10px;
+  font-weight: 500;
+  margin-top: 7px;
+}
+
+.button {
+  margin-top: 20px;
+  display: flex;
+  gap: 5px;
+}
+
+#download {
+  height: 30px;
+   width: 120px;
+   font-size: 12px;
+
+}
+
+#windows {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(46, 190, 46);
+  font-size: 12px;
+}
+
+@media (max-width: 480px) { 
+
+  * {
+    margin: 0;
+    padding: 0;
+  
+  }
+
+  .nav {
+    margin-top: 2vh;
+    height: 6vh;
+    width: 100%;
+    /* outline: 2px solid black;  */
+    padding-left: 30vh;
+    /* background-color: aqua; */
+    display: flex;
+    padding-right: 5vh;
+    padding-left: 20px;
+  
+  }
+  #logo {
+    height: 4vh;
+  }
+
+
+
+  .grids {
+    /* outline: 2px solid black; */
+    height: 80vh;
+    padding-left: 13vh;
+    margin-top: 30px;
+   
+    /* background-color: rgba(216, 112, 147, 0.548); */
+    display: grid;
+    grid-template-columns: 38vh;
+    /* border:  1px solid black; */
+   gap: 30px;
+  }
+
+  .hero {
+    width: 50vh;
+    height: 35vh;
+    /* outline: 2px solid black;  */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-content: left; */
+    /* margin-left: 27vh; */
+    margin-top: 10vh;
+   /* justify-content: left; */
+     
+    margin-left: 8vh;
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  
+  p {
+    width: 400px;
+    text-align: center;
+  }
+  
+  
+  
+  
+  h1 {
+    font-weight: 400;
+    /* font-size: px; */
+    text-align: center;
+  }
+  
+  
+  
+  
+  #ultra {
+    font-weight: 800;
+  }
+  
+  
+  #reviews {
+    margin-left: 10px;
+    width: 80px;
+  
+  }
+  
+  
+  button {
+    font-size: 14px;
+    font-weight: 500;
+    background-color: rgba(0, 187, 178, 0.664);
+    border: none;
+    width: 300px;
+    height: 40px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+     margin-left: 0px;
+  }
+  
+  .box2, .box3, .box4, .box5, .box6{
+  
+  
+  
+    height: 6vh;
+    /* outline: 2px solid black; */
+    width: 6vh;
+    /* padding: 30; */
+    display: flex;
+    justify-content: center  ;
+    align-items: center;
+    font-size: 1.5vh;
+    /* padding-left: 10px; */
+    /* padding-right: 0px; */
+    font-weight: 500;
+    color: rgba(36, 36, 36, 0.801);
+  
+  }
+
+  .box2 {
+    margin-left: 4vh;
+    
+  }
+
+} 
